@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="assets/icons/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Galaxy | Stavan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- hero -->
+    <div class="hero">
+        <div class="stars"></div>
+        <div class="content">
+            <h1><span class="constellation">Stavan Pathare</span></h1>
+            <p class="roles">
+                <span>Fronted Wizard</span> .
+                <span>Backend Tamer</span> .
+                <span>Full Stack Explorer</span> .
+            </p>
+            <p class="tagline">Crafting web experiences that are out of the world.</p>
+            <button id="journeyBtn" class="journey-btn">🚀 Begin Journey</button>
+        </div>
+    </div>
+
+    <!-- Journey Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close journey-close">&times;</span>
+            <h2>🌌 Welcome Aboard!</h2>
+            <p>You're about to explore my universe of projects, skills, and adventures. Scrool down or Select a destination</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+     <section class="about-section" id="about">
+        <h2>🧑‍🚀 About Me</h2>
+        <p>
+            I’m a web developer passionate about crafting immersive digital experiences. 
+      My journey through the universe of code has equipped me with skills in frontend, backend, 
+      and everything in between.
+        </p>
+        <p>
+         I thrive on creating projects that not only look stellar but also perform flawlessly across galaxies.
+        </p>
+     </section>
+
+     <!-- Project Modal -->
+      <div class="project-grid">
+          <div class="project" data-name="Weather App">Weather App</div>
+          <div class="project" data-name="College Finder">College Finder</div>
+          <div class="project" data-name="To-Do list">To-Do list</div>
+     </div>
+
+      <div class="modal" id="projectModal">
+        <div class="modal-content">
+             <span class="close project-close">&times;</span>
+             <h2 id="projectTitle">Project Title</h2>
+             <img id="projectImg" src="" alt="Project Screenshot" class="project-img">
+             <p id="projectDesc">Project Discription will appear here....</p>
+             <div id="projectTech" class="tech-stack"></div>
+             <a id="projectLink" href="#" target="_blank" class="explore-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+       <section id="skills" class="skills-section">
+        <h2>🪐 My Tech Universe</h2>
+
+        <div class="skills-constellation">
+            <svg class="skills-svg" width="100%" height="300">
+                <line x1="20%" y1="50" x2="40%" y2="150" />
+                <line x1="40%" y1="150" x2="60%" y2="80" />
+                <line x1="60%" y1="80" x2="80%" y2="200" />
+                <line x1="20%" y1="50" x2="60%" y2="80" />
+            </svg>
+
+            <div class="skills-list">
+                <h3>🌟 Frontend</h3>
+                <span class="skill" style="top: 40px; left: 20%;">HTML</span>
+                <span class="skill" style="top: 140px; left: 40%;">CSS</span>
+                <span class="skill" style="top: 70px; left: 60%;">JavaScript</span>
+            </div>
+        </div>
+        <div class="skills-constellation">
+            <svg class="skills-svg" width="100%" height="300">
+                <line x1="20%" y1="50" x2="40%" y2="150" />
+                <line x1="40%" y1="150" x2="60%" y2="80" />
+                <line x1="60%" y1="80" x2="80%" y2="200" />
+                <line x1="20%" y1="50" x2="60%" y2="80" />
+            </svg>
+
+            <div class="skills-list">
+                <h3>🚀  Backend</h3>
+                <span class="skill" style="top: 40px; left: 20%;">C</span>
+                <span class="skill" style="top: 140px; left: 40%;">C++</span>
+                <span class="skill" style="top: 70px; left: 60%;">C#</span>
+            </div>
+        </div>
+        <div class="skills-constellation">
+            <svg class="skills-svg" width="100%" height="300">
+                <line x1="20%" y1="50" x2="40%" y2="150" />
+                <line x1="40%" y1="150" x2="60%" y2="80" />
+                <line x1="60%" y1="80" x2="80%" y2="200" />
+                <line x1="20%" y1="50" x2="60%" y2="80" />
+            </svg>
+
+            <div class="skills-list">
+                <h3>🛠️ Tools</h3>
+                <span class="skill" style="top: 40px; left: 20%;">GitHub</span>
+                <span class="skill" style="top: 140px; left: 40%;">VS Code</span>
+                <span class="skill" style="top: 70px; left: 60%;">Netlify</span>
+            </div>
+        </div>
+       </section>
+       <!-- Certificates Section -->
+        <section id="certificates" class="certificates-section">
+            <h2>📜 My Certificates</h2>
+            <div class="certificate" data-name="HTML">HTML</div>
+            <div class="certificate" data-name="C++">C++</div>
+            <div class="certificate" data-name="Full Stack">Full Stack Development</div>
+            <div class="certificate" data-name="CSS">CSS</div>
+        </section>
+        <!-- Certificate Modal -->
+         <div class="modal" id="certModal">
+            <div class="modal-content">
+                <span class="close cert-close">&times;</span>
+                <h2 id="certTitle">Certificate Title</h2>
+                <img id="certImg" src="" alt="Certificate Image" class="project-img">
+                <a id="certDownload" href="#" download class="explore-btn">Download</a>
+            </div>
+         </div>
+         <!-- Contact Me -->
+          <section id="contact" class="contact-section">
+            <h2>📬 Contact Me</h2>
+            <div class="contact-icons">
+                <a href="https://youtube.com/@mineplaysofficial?si=GDunOcuSh6i8VHze" target="_blank">
+                    <img src="assets/icons/youtube.png" alt="YouTube" class="contact-icon">
+                </a>
+                <a href="https://wa.me/+919970909975" target="_blank">
+                    <img src="assets/icons/whatsapp.png" alt="WhatsApp" class="contact-icon">
+                </a>
+                <a href="http://t.me/Stavan188" target="_blank">
+                    <img src="assets/icons/telegram.png" alt="Telegram" class="contact-icon">
+                </a>
+                <a href="https://www.instagram.com/stavan_pathare?igsh=YjYwOHZ1MHVrdDk1" target="_blank">
+                    <img src="assets/icons/instagram.png" alt="Instagram" class="contact-icon">
+                </a>
+                <a href="https://github.com/stavanpathare" target="_blank">
+                    <img src="assets/icons/Github.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+          </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
