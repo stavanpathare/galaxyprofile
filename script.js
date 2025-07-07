@@ -27,7 +27,7 @@ const projectData = {
   "Weather App": {
     desc: "A weather forecasting app with real-time data.",
     link: "https://humiweather.netlify.app",
-    repo: "",
+    repo: "https://github.com/stavanpathare/weather",
     tech: ["HTML", "JS", "CSS"],
     img: "assets/images/project3.png"
   },
