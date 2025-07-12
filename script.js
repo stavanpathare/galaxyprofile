@@ -44,6 +44,13 @@ const projectData = {
     repo: "https://github.com/stavanpathare/To-Do-list",
     tech: ["HTML", "JS", "CSS"],
     img: "assets/images/project1.png"
+  },
+  "Expense Tracker": {
+    desc: "An app that can help you to track your daily/weekly/monthly expenses.",
+    link: "https://spendease.netlify.app",
+    repo: "https://github.com/stavanpathare/expense-tracker-frontend",
+    tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
+    img: "assets/images/project4.png"
   }
 };
 
