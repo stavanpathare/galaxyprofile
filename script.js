@@ -47,7 +47,7 @@ const projectData = {
   },
   "Expense Tracker": {
     desc: "An app that can help you to track your daily/weekly/monthly expenses.",
-    link: "https://spendease.netlify.app",
+    link: "https://spentnest.netlify.app",
     repo: "https://github.com/stavanpathare/expense-tracker-frontend",
     tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
     img: "assets/images/project4.png"
