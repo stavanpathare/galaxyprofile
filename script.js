@@ -70,6 +70,10 @@ const certData = {
   "CSS": {
     img: "assets/certificatesImg/cert_css.jpg",
     download: "assets/certificatesPdf/css.pdf"
+  },
+  "Ecommerce": {
+    img: "assets/certificatesImg/e-commerce.png",
+    download: "assets/certificatesPdf/e-commerce.png"
   }
 };
 
