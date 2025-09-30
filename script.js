@@ -45,6 +45,13 @@ const projectData = {
     tech: ["HTML", "JS", "CSS"],
     img: "assets/images/project1.png"
   },
+  "Food IQ": {
+    desc: "An app that can help you to Analyze the label of the products.",
+    link: "https://foodiq.netlify.app",
+    repo: "https://github.com/stavanpathare/foodiq-frontend",
+    tech: ["HTML", "JS", "CSS"],
+    img: "assets/images/project5.jpeg"
+  },
   "Expense Tracker": {
     desc: "An app that can help you to track your daily/weekly/monthly expenses.",
     link: "https://spentnest.netlify.app",
