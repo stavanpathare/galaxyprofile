@@ -70,9 +70,9 @@ const certData = {
     img: "assets/certificatesImg/cert_cpp.jpg",
     download: "assets/certificatesPdf/cpp.pdf"
   },
-  "Full Stack": {
-    img: "assets/certificatesImg/cert_fullstack.jpg",
-    download: "assets/certificatesPdf/coursera.pdf"
+  "Github": {
+    img: "assets/certificatesImg/github.png",
+    download: "assets/certificatesPdf/GitHub.pdf"
   },
   "CSS": {
     img: "assets/certificatesImg/cert_css.jpg",
