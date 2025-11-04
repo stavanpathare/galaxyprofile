@@ -47,7 +47,7 @@ const projectData = {
   },
   "Food IQ": {
     desc: "An app that can help you to Analyze the label of the products.",
-    link: "https://foodiq.netlify.app",
+    link: "https://foodiq.vercel.app",
     repo: "https://github.com/stavanpathare/foodiq-frontend",
     tech: ["HTML", "JS", "CSS"],
     img: "assets/images/project5.jpeg"
