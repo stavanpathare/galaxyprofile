@@ -54,10 +54,17 @@ const projectData = {
   },
   "Expense Tracker": {
     desc: "An app that can help you to track your daily/weekly/monthly expenses.",
-    link: "https://spentnest.netlify.app",
+    link: "https://spentnest.vercel.app",
     repo: "https://github.com/stavanpathare/expense-tracker-frontend",
     tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
     img: "assets/images/project4.png"
+  },
+  "UniSummarizer": {
+    desc: "An app that can help you to find answers of your university questions quickly.",
+    link: "https://unisummarizer.netlify.app",
+    repo: "https://github.com/stavanpathare/unisummarizer-frontend",
+    tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
+    img: "assets/images/project5.png"
   }
 };
 
@@ -81,6 +88,10 @@ const certData = {
   "Ecommerce": {
     img: "assets/certificatesImg/e-commerce.png",
     download: "assets/certificatesPdf/e-commerce.png"
+  },
+  "District1": {
+    img: "assets/certificatesImg/district1.png",
+    download: "assets/certificatesPdf/district1.pdf"
   }
 };
 
