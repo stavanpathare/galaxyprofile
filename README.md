@@ -24,5 +24,4 @@
 
 ---
 
-## 🚀 Getting Started
 
