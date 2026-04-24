@@ -100,6 +100,10 @@ const certData = {
   "District3": {
     img: "assets/certificatesImg/district3.jpeg",
     download: "assets/certificatesPdf/district3.pdf"
+  },
+  "District4": {
+    img: "assets/certificatesImg/district4.jpeg",
+    download: "assets/certificatesPdf/district4.pdf"
   }
 };
 
