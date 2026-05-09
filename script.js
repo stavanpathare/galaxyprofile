@@ -65,6 +65,13 @@ const projectData = {
     repo: "https://github.com/stavanpathare/unisummarizer-frontend",
     tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
     img: "assets/images/project5.png"
+  },
+  "College Items": {
+    desc: "An app that can help you to find items lost in your college campus.",
+    link: "https://founddesk.netlify.app",
+    repo: "https://github.com/stavanpathare/collegeitem-frontend",
+    tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
+    img: "assets/images/project6.png"
   }
 };
 
