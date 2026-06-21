@@ -245,6 +245,7 @@ footer{
   height: 40px;
   margin: 0 10px;
   transition: transform 0.2s, opacity 0.2s;
+ border-radius: 50%;
 }
 .contact-icon:hover {
   transform: scale(1.2);
