@@ -74,11 +74,11 @@ const projectData = {
     img: "assets/images/project6.png"
   },
   "Nextralis": {
-    desc: "A revolutionary app for seamless navigation.",
+    desc: "An app that simulates real interview experiences to help you prepare with confidence.",
     link: "https://nextralis.netlify.app",
     repo: "https://github.com/stavanpathare/nextralis-frontend",
     tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
-    img: "assets/images/project7.png"
+    img: "assets/images/project7.jpeg"
   }
 };
 
