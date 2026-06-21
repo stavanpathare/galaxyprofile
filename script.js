@@ -72,6 +72,13 @@ const projectData = {
     repo: "https://github.com/stavanpathare/collegeitem-frontend",
     tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
     img: "assets/images/project6.png"
+  },
+  "Nextralis": {
+    desc: "A revolutionary app for seamless navigation.",
+    link: "https://nextralis.netlify.app",
+    repo: "https://github.com/stavanpathare/nextralis-frontend",
+    tech: ["HTML", "JS", "CSS", "Node.js", "MongoDB"],
+    img: "assets/images/project7.png"
   }
 };
 
